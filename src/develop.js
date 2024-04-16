@@ -1,4 +1,3 @@
-let a = ("I hope i made it true");
-{
+let a = 'I hope i made it true';
 console.log (a);
-}
+ 
