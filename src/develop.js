@@ -1,3 +1,3 @@
-let a = 'I hope i made it true';
+let a = 'Hope I got it right';
 console.log (a);
  
