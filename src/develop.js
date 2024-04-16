@@ -1,2 +1,4 @@
-console.log("hello world")
-console.log("hello world")
+let a = ("I hope i made it true");
+{
+console.log (a);
+}
