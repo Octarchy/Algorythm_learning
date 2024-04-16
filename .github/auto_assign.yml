@@ -1,0 +1,17 @@
+# Set to true to add reviewers to pull requests
+addReviewers: true
+
+# Set to true to add assignees to pull requests
+addAssignees: false
+
+# Set to true to add reviewers from different groups to pull requests
+useReviewGroups: false
+
+# A list of reviewers to be added to pull requests (GitHub user name or team slug)
+reviewers:
+  - Octarchy/Octarchy-approvers
+
+# A number of reviewers added to the pull request
+# Set 0 to add all the reviewers (default: 0)
+# numberOfReviewers has no impact when adding Github teams as reviewers
+numberOfReviewers: 0
