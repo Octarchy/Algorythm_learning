@@ -1,2 +1,3 @@
-let a = 'Hope I got it right';
-console.log(a);
+let a = 12;
+let b = a + 12;
+console.log(a+b);
