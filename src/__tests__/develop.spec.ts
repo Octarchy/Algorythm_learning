@@ -1,0 +1,2 @@
+import GetNumberSum from '../develop'
+
