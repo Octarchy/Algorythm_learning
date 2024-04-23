@@ -4,7 +4,7 @@ function test() {
     const testCases = [
       { input: { a: 1, b: 2 }, expected: 3 },
       { input: { a: -2, b: 1 }, expected: 0 },
-      { input: { a: 'not a number', b: 'number' }, expected: NaN } 
+      { input: { a: 'not a number', b: 'number' }, expected: "Error: Cannot plus non number params" } 
     ];
   
     const testResults = [];
