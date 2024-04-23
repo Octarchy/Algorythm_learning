@@ -9,12 +9,12 @@ function test() {
   
     const testResults = [];
   
-    testCases.map((testCase) => {
+    testCases.forEach((testCase) => {
       const result = GetNumberSum(testCase.input.a, testCase.input.b); 
       const isPassed = result === testCase.expected; 
       testResults.push(isPassed);
     });
     return testResults;
-  }//ne ponel pro kakoi massiv ti govoril
+  }
   const results = test();
   console.log(results);
