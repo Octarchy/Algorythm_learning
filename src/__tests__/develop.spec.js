@@ -9,10 +9,11 @@ function test() {
   
     const testResults = [];
   
-    testCases.forEach((testCase) => {
+    testCases.map((testCase) => {
       const result = GetNumberSum(testCase.input.a, testCase.input.b); 
       const isPassed = result === testCase.expected; 
       testResults.push(isPassed);
+      return result === testCase.expected;
     });
     return testResults;
   }
