@@ -7,13 +7,10 @@ function test() {
       { input: { a: 'not a number', b: 'number' }, expected: "Error: Cannot plus non number params" } 
     ];
   
-    const testResults = [];
-  
-    testCases.map((testCase) => {
+    const testResults = testCases.map((testCase) => {
       const result = GetNumberSum(testCase.input.a, testCase.input.b); 
       const isPassed = result === testCase.expected; 
-      testResults.push(isPassed);
-      return result === testCase.expected;
+      return isPassed;
     });
     return testResults;
   }
