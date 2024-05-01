@@ -6,17 +6,17 @@ function test() {
     { input: { a: 'not a number', b: 'number' }, expected: "Error: Cannot plus non number params" } 
   ];
   let testResults
-  try {
-    testResults = testCases.map((testCase) => {
-    const result = GetNumberSum(testCase.input.a, testCase.input.b); 
-    const isPassed = result === testCase.expected; 
-    return isPassed;
-  });
-} catch (error) {
-  console.log('err')
+  testResults = testCases.map((testCase) => {
+  const results = GetNumberSum(testCase.input.a, testCase.input.b); 
+  const isPassed = results === testCase.expected; 
+  return isPassed;
+});
+  return testResults;
 }
-
-    return testResults;
-  }
-  const results = test();
-  console.log(results);
+try{
+  if (results !== expected ) {
+    throw  Error("expexted !== result")};
+}catch(error){
+alert('something went wrong')
+}
+console.log(results);
