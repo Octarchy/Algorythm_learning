@@ -1,0 +1,13 @@
+{
+  "name": "algorythm_learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./src/__tests__/develop.spec.js",
+    "start": "node ./src/develop.js"
+  },
+  "author": "DannyNickson",
+  "license": "ISC"
+}
