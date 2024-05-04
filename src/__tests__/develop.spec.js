@@ -7,7 +7,6 @@ function test() {
     { input: { a: 'not a number', b: 'number' }, expected: "Error: Cannot plus non number params" } 
   ];
   const testResults = testCases.map((testCase) => {GetNumberSum(testCase.input.a, testCase.input.b) === testCase.expected; 
-    return isPassed;
   });
   return testResults;
 }
@@ -17,5 +16,5 @@ try {
     throw 'There is an error in the test results'
   }
 } catch(error) {
-  console.error('Something went wrong:');
+  console.error('Something went wrong', error);
 }
