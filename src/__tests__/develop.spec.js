@@ -15,7 +15,7 @@ function test() {
 }
 try {
   const results = test();
-  if (results.includes(false)) {
+  if (results.some(result => !result)) {
     throw 'There is an error in the test results'
   }
 } catch(error) {
