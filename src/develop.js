@@ -10,3 +10,6 @@ function GetNumberSum(a, b) {
 console.log(GetNumberSum(1, 2)); 
 console.log(GetNumberSum(-1, -2)); 
 console.log(GetNumberSum("not a number", false)); 
+
+
+export default GetNumberSum;
